@@ -30,9 +30,9 @@ class LeftMenu extends Component {
         return menu
     }
     UNSAFE_componentWillMount(){ 
-       let a =  this.Menu(this.props.user.user.menuInfo);  
+       let a =  this.Menu(this.props.user.user.menuInfo);       
         this.setState({
-            menuname:a   
+            menuname:a    
         })
     }   
     render() {

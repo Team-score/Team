@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.ant-layout-header{
+  color: #61dafb !important;
+  margin-bottom: 30px;
+}
+.ant-layout-content{
+  width: 500px;
+  margin: 0 auto;
+}
